@@ -6,4 +6,5 @@ begin
   RSpec::Core::RakeTask.new(:spec)
   task default: :spec
 rescue LoadError
+  puts('Unable to load core rake tasks')
 end
