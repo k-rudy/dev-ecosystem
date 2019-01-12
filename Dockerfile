@@ -6,7 +6,7 @@ ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
 RUN apt-get update -y && \
-    apt-get install -y cmake libssl-dev
+    apt-get install -y cmake libssl-dev postgresql-client-9.6
 
 ENV APP_HOME /usr/src/app
 RUN mkdir -p $APP_HOME
