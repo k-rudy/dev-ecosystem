@@ -5,7 +5,7 @@ require_relative '../lib/app'
 require_relative '../apps/web/application'
 
 Hanami.configure do
-  mount Web::Application, at: '/'
+  mount BankUI::Application, at: '/'
 
   model do
     ##
@@ -28,7 +28,7 @@ Hanami.configure do
   end
 
   mailer do
-    root 'lib/app/mailers'
+    root 'lib/bank/mailers'
 
     # See http://hanamirb.org/guides/mailers/delivery
     delivery :test

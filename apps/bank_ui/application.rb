@@ -1,7 +1,7 @@
 require 'hanami/helpers'
 require 'hanami/assets'
 
-module Web
+module BankUI
   class Application < Hanami::Application
     # rubocop:disable BlockLength
     configure do
