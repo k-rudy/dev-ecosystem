@@ -270,7 +270,7 @@ module BankUI
       # See: http://www.rubydoc.info/gems/hanami-view#Configuration
       view.prepare do
         include Hanami::Helpers
-        include Web::Assets::Helpers
+        include BankUI::Assets::Helpers
       end
     end
 

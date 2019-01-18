@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="cp866"?>
+<TURN>
+  <ACCOUNTINFO>
+    <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
+    <CURRENCY Iso="GBP" Code="826" Rate="2.6989"> </CURRENCY>
+    <NAME>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ РУДЫЙ КОНСТАНТИН ВИКТОРОВИЧ</NAME>
+    <TYPETURN>ОКОНЧАТЕЛЬНАЯ</TYPETURN>
+    <PERIOD>за 01.11.2018</PERIOD>
+    <INREST nominal="0.01" equivalent="0.03"> </INREST>
+    <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
+    <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
+    <TURNKRE nominal="0.00" equivalent="0.00"> </TURNKRE>
+    <CARDRESTS card1="" card2=""> </CARDRESTS>
+    <LASTOPER>04.10.2018</LASTOPER>
+    <TIMETURN date="01.11.2018" time="23:41:13"> </TIMETURN>
+    <TIMEMAKE date="06.01.2019" time="23:41:04"> </TIMEMAKE>
+    <OPERINFO>
+    </OPERINFO>
+  </ACCOUNTINFO>
+</TURN><?xml version="1.0" encoding="cp866"?>
+<TURN>
+  <ACCOUNTINFO>
+    <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
+    <CURRENCY Iso="GBP" Code="826" Rate="2.7353"> </CURRENCY>
+    <NAME>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ РУДЫЙ КОНСТАНТИН ВИКТОРОВИЧ</NAME>
+    <TYPETURN>ОКОНЧАТЕЛЬНАЯ</TYPETURN>
+    <PERIOD>за 02.11.2018</PERIOD>
+    <INREST nominal="0.01" equivalent="0.03"> </INREST>
+    <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
+    <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
+    <TURNKRE nominal="0.00" equivalent="0.00"> </TURNKRE>
+    <CARDRESTS card1="" card2=""> </CARDRESTS>
+    <LASTOPER>04.10.2018</LASTOPER>
+    <TIMETURN date="02.11.2018" time="23:35:06"> </TIMETURN>
+    <TIMEMAKE date="06.01.2019" time="23:41:04"> </TIMEMAKE>
+    <OPERINFO>
+    </OPERINFO>
+  </ACCOUNTINFO>
+</TURN><?xml version="1.0" encoding="cp866"?>
+<TURN>
+  <ACCOUNTINFO>
+    <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
+    <CURRENCY Iso="GBP" Code="826" Rate="2.7579"> </CURRENCY>
+    <NAME>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ РУДЫЙ КОНСТАНТИН ВИКТОРОВИЧ</NAME>
+    <TYPETURN>ОКОНЧАТЕЛЬНАЯ</TYPETURN>
+    <PERIOD>за 05.11.2018</PERIOD>
+    <INREST nominal="0.01" equivalent="0.02"> </INREST>
+    <OUTREST nominal="1750.01" equivalent="1342.15"> </OUTREST>
+    <TURNDEB nominal="0.00" equivalent="0.01"> </TURNDEB>
+    <TURNKRE nominal="1750.00" equivalent="1342.13"> </TURNKRE>
+    <CARDRESTS card1="" card2=""> </CARDRESTS>
+    <LASTOPER>04.10.2018</LASTOPER>
+    <TIMETURN date="06.11.2018" time="6:47:21"> </TIMETURN>
+    <TIMEMAKE date="06.01.2019" time="23:41:04"> </TIMEMAKE>
+    <OPERINFO>
+      <OPER>
+        <OPERUID></OPERUID>
+        <DOCN>72081</DOCN>
+        <MFOKORR>qwe12</MFOKORR>
+        <ACCKORR>123123213</ACCKORR>
+        <NAMEKORR>COOL COMPANY</NAMEKORR>
+        <UNPKORR></UNPKORR>
+        <SUMOPER nd="" nk="750.00" ed="" ek="1342.13"> </SUMOPER>
+        <DETPAY>COMPANY </DETPAY>
+        <RATEINFO Code="826" Rate=""> </RATEINFO>
+        <TAX></TAX>
+        <VO>06</VO>
+        <UNP3></UNP3>
+      </OPER>
+    </OPERINFO>
+  </ACCOUNTINFO>
+</TURN><?xml version="1.0" encoding="cp866"?>
+<TURN>
+  <ACCOUNTINFO>
+    <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
+    <CURRENCY Iso="GBP" Code="826" Rate="2.762"> </CURRENCY>
+    <NAME>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ РУДЫЙ КОНСТАНТИН ВИКТОРОВИЧ</NAME>
+    <TYPETURN>ОКОНЧАТЕЛЬНАЯ</TYPETURN>
+    <PERIOD>за 06.11.2018</PERIOD>
+    <INREST nominal="750.01" equivalent="1357.53"> </INREST>
+    <OUTREST nominal="0.00" equivalent="0.00"> </OUTREST>
+    <TURNDEB nominal="3750.01" equivalent="10357.53"> </TURNDEB>
+    <TURNKRE nominal="0.00" equivalent="15.38"> </TURNKRE>
+    <CARDRESTS card1="" card2=""> </CARDRESTS>
+    <LASTOPER>05.11.2018</LASTOPER>
+    <TIMETURN date="06.11.2018" time="23:40:05"> </TIMETURN>
+    <TIMEMAKE date="06.01.2019" time="23:41:04"> </TIMEMAKE>
+    <OPERINFO>
+      <OPER>
+        <OPERUID></OPERUID>
+        <DOCN>30</DOCN>
+        <MFOKORR>BPSBBY2X</MFOKORR>
+        <ACCKORR>BY80BPSB69018600450498260000</ACCKORR>
+        <NAMEKORR>ОАО "БПС-СБЕРБАНК"</NAMEKORR>
+        <UNPKORR>100219673</UNPKORR>
+        <SUMOPER nd="750.01" nk="" ed="1357.53" ek=""> </SUMOPER>
+        <DETPAY>Перевод с продажей ПП 30  от 06.11.18. Курс  2.7694 за 1 ед. валюты    ПЕРЕВОД С ПРОДАЖЕЙ, ДОГОВОР НА ВОО 301612ВОО ОТ 28.07.17 </DETPAY>
+        <RATEINFO Code="826" Rate=""> </RATEINFO>
+        <TAX></TAX>
+        <VO>06</VO>
+        <UNP3></UNP3>
+      </OPER>
+    </OPERINFO>
+  </ACCOUNTINFO>
+</TURN><?xml version="1.0" encoding="cp866"?>
+<TURN>
+  <ACCOUNTINFO>
+    <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
+    <CURRENCY Iso="GBP" Code="826" Rate="2.7693"> </CURRENCY>
+    <NAME>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ РУДЫЙ КОНСТАНТИН ВИКТОРОВИЧ</NAME>
+    <TYPETURN>ОКОНЧАТЕЛЬНАЯ</TYPETURN>
+    <PERIOD>за 08.11.2018</PERIOD>
+    <INREST nominal="0.00" equivalent="0"> </INREST>
+    <OUTREST nominal="0.00" equivalent="0.00"> </OUTREST>
+    <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
+    <TURNKRE nominal="0.00" equivalent="0.00"> </TURNKRE>
+    <CARDRESTS card1="" card2=""> </CARDRESTS>
+    <LASTOPER>06.11.2018</LASTOPER>
+    <TIMETURN date="08.11.2018" time="23:34:45"> </TIMETURN>
+    <TIMEMAKE date="06.01.2019" time="23:41:04"> </TIMEMAKE>
+    <OPERINFO>
+    </OPERINFO>
+  </ACCOUNTINFO>
+</TURN>
+<TURN><?xml version="1.0" encoding="cp866"?>
+  <ACCOUNTINFO>
+    <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
+    <CURRENCY Iso="GBP" Code="826" Rate="2.7309"> </CURRENCY>
+    <NAME>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ РУДЫЙ КОНСТАНТИН ВИКТОРОВИЧ</NAME>
+    <TYPETURN>ОКОНЧАТЕЛЬНАЯ</TYPETURN>
+    <PERIOD>за 29.12.2018</PERIOD>
+    <INREST nominal="0.00" equivalent="0"> </INREST>
+    <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
+    <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
+    <TURNKRE nominal="0.01" equivalent="0.03"> </TURNKRE>
+    <CARDRESTS card1="" card2=""> </CARDRESTS>
+    <LASTOPER>10.12.2018</LASTOPER>
+    <TIMETURN date="29.12.2018" time="23:45:49"> </TIMETURN>
+    <TIMEMAKE date="06.01.2019" time="23:41:06"> </TIMEMAKE>
+    <OPERINFO>
+      <OPER>
+        <OPERUID></OPERUID>
+        <DOCN>25720</DOCN>
+        <MFOKORR>BPSBBY2X</MFOKORR>
+        <ACCKORR>BY91BPSB69018000050108260000</ACCKORR>
+        <NAMEKORR>ОАО "БПС-СБЕРБАНК"</NAMEKORR>
+        <UNPKORR>100219673</UNPKORR>
+        <SUMOPER nd="" nk="0.01" ed="" ek="0.03"> </SUMOPER>
+        <DETPAY>Выплата процентов по счетам клиентов за период с 30/11/2018 по 28/12/2018 по договору от 28.07.2017 № 501/301612/Т/826/02 по счету BY30BPSB30133016120248260000. </DETPAY>
+        <RATEINFO Code="826" Rate=""> </RATEINFO>
+        <TAX></TAX>
+        <VO>06</VO>
+        <UNP3></UNP3>
+      </OPER>
+    </OPERINFO>
+  </ACCOUNTINFO>
+</TURN><?xml version="1.0" encoding="cp866"?>
+<TURN>
+  <ACCOUNTINFO>
+    <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
+    <CURRENCY Iso="GBP" Code="826" Rate="2.7309"> </CURRENCY>
+    <NAME>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ РУДЫЙ КОНСТАНТИН ВИКТОРОВИЧ</NAME>
+    <TYPETURN>ОКОНЧАТЕЛЬНАЯ</TYPETURN>
+    <PERIOD>за 02.01.2019</PERIOD>
+    <INREST nominal="0.01" equivalent="0.03"> </INREST>
+    <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
+    <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
+    <TURNKRE nominal="0.00" equivalent="0.00"> </TURNKRE>
+    <CARDRESTS card1="" card2=""> </CARDRESTS>
+    <LASTOPER>29.12.2018</LASTOPER>
+    <TIMETURN date="02.01.2019" time="23:37:49"> </TIMETURN>
+    <TIMEMAKE date="06.01.2019" time="23:41:06"> </TIMEMAKE>
+    <OPERINFO>
+    </OPERINFO>
+  </ACCOUNTINFO>
+</TURN>

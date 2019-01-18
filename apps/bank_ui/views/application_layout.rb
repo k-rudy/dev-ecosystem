@@ -1,7 +1,7 @@
-module Web
+module BankUI
   module Views
     class ApplicationLayout
-      include Web::Layout
+      include BankUI::Layout
     end
   end
 end

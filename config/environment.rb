@@ -1,8 +1,8 @@
 require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
-require_relative '../lib/app'
-require_relative '../apps/web/application'
+require_relative '../lib/bank'
+require_relative '../apps/bank_ui/application'
 
 Hanami.configure do
   mount BankUI::Application, at: '/'

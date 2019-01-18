@@ -16,6 +16,7 @@ end
 group :test, :development do
   gem 'dotenv'
   gem 'overcommit'
+  gem 'pry'
   gem 'rubocop'
 end
 

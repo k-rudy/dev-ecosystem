@@ -2,6 +2,8 @@
 ENV['HANAMI_ENV'] ||= 'test'
 
 require_relative '../config/environment'
+require 'pry'
+
 Hanami.boot
 Hanami::Utils.require!("#{__dir__}/support")
 
