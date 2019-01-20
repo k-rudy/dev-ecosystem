@@ -3,9 +3,9 @@
   <ACCOUNTINFO>
     <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
     <CURRENCY Iso="GBP" Code="826" Rate="2.6989"> </CURRENCY>
-    <NAME>€Ќ„€‚€„“Ђ‹њЌ›‰ Џђ…„Џђ€Ќ€ЊЂ’…‹њ ђ“„›‰ ЉЋЌ‘’ЂЌ’€Ќ ‚€Љ’ЋђЋ‚€—</NAME>
-    <TYPETURN>ЋЉЋЌ—Ђ’…‹њЌЂџ</TYPETURN>
-    <PERIOD>§  01.11.2018</PERIOD>
+    <NAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</NAME>
+    <TYPETURN>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</TYPETURN>
+    <PERIOD>пїЅпїЅ 01.11.2018</PERIOD>
     <INREST nominal="0.01" equivalent="0.03"> </INREST>
     <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
     <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
@@ -22,9 +22,9 @@
   <ACCOUNTINFO>
     <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
     <CURRENCY Iso="GBP" Code="826" Rate="2.7353"> </CURRENCY>
-    <NAME>€Ќ„€‚€„“Ђ‹њЌ›‰ Џђ…„Џђ€Ќ€ЊЂ’…‹њ ђ“„›‰ ЉЋЌ‘’ЂЌ’€Ќ ‚€Љ’ЋђЋ‚€—</NAME>
-    <TYPETURN>ЋЉЋЌ—Ђ’…‹њЌЂџ</TYPETURN>
-    <PERIOD>§  02.11.2018</PERIOD>
+    <NAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</NAME>
+    <TYPETURN>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</TYPETURN>
+    <PERIOD>пїЅпїЅ 02.11.2018</PERIOD>
     <INREST nominal="0.01" equivalent="0.03"> </INREST>
     <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
     <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
@@ -41,9 +41,9 @@
   <ACCOUNTINFO>
     <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
     <CURRENCY Iso="GBP" Code="826" Rate="2.7579"> </CURRENCY>
-    <NAME>€Ќ„€‚€„“Ђ‹њЌ›‰ Џђ…„Џђ€Ќ€ЊЂ’…‹њ ђ“„›‰ ЉЋЌ‘’ЂЌ’€Ќ ‚€Љ’ЋђЋ‚€—</NAME>
-    <TYPETURN>ЋЉЋЌ—Ђ’…‹њЌЂџ</TYPETURN>
-    <PERIOD>§  05.11.2018</PERIOD>
+    <NAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</NAME>
+    <TYPETURN>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</TYPETURN>
+    <PERIOD>пїЅпїЅ 05.11.2018</PERIOD>
     <INREST nominal="0.01" equivalent="0.02"> </INREST>
     <OUTREST nominal="1750.01" equivalent="1342.15"> </OUTREST>
     <TURNDEB nominal="0.00" equivalent="0.01"> </TURNDEB>
@@ -74,9 +74,9 @@
   <ACCOUNTINFO>
     <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
     <CURRENCY Iso="GBP" Code="826" Rate="2.762"> </CURRENCY>
-    <NAME>€Ќ„€‚€„“Ђ‹њЌ›‰ Џђ…„Џђ€Ќ€ЊЂ’…‹њ ђ“„›‰ ЉЋЌ‘’ЂЌ’€Ќ ‚€Љ’ЋђЋ‚€—</NAME>
-    <TYPETURN>ЋЉЋЌ—Ђ’…‹њЌЂџ</TYPETURN>
-    <PERIOD>§  06.11.2018</PERIOD>
+    <NAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</NAME>
+    <TYPETURN>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</TYPETURN>
+    <PERIOD>пїЅпїЅ 06.11.2018</PERIOD>
     <INREST nominal="750.01" equivalent="1357.53"> </INREST>
     <OUTREST nominal="0.00" equivalent="0.00"> </OUTREST>
     <TURNDEB nominal="3750.01" equivalent="10357.53"> </TURNDEB>
@@ -91,10 +91,10 @@
         <DOCN>30</DOCN>
         <MFOKORR>BPSBBY2X</MFOKORR>
         <ACCKORR>BY80BPSB69018600450498260000</ACCKORR>
-        <NAMEKORR>ЋЂЋ "ЃЏ‘-‘Ѓ…ђЃЂЌЉ"</NAMEKORR>
+        <NAMEKORR>пїЅпїЅпїЅ "пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"</NAMEKORR>
         <UNPKORR>100219673</UNPKORR>
         <SUMOPER nd="750.01" nk="" ed="1357.53" ek=""> </SUMOPER>
-        <DETPAY>ЏҐаҐў®¤ б Їа®¤ ¦Ґ© ЏЏ 30  ®в 06.11.18. Љгаб  2.7694 §  1 Ґ¤. ў «овл    Џ…ђ…‚Ћ„ ‘ ЏђЋ„Ђ†…‰, „ЋѓЋ‚Ћђ ЌЂ ‚ЋЋ 301612‚ЋЋ Ћ’ 28.07.17 </DETPAY>
+        <DETPAY>пїЅпїЅаҐўпїЅпїЅ пїЅ пїЅа®¤пїЅпїЅпїЅпїЅ пїЅпїЅ 30  пїЅпїЅ 06.11.18. пїЅпїЅпїЅпїЅ  2.7694 пїЅпїЅ 1 пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ    пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ 301612пїЅпїЅпїЅ пїЅпїЅ 28.07.17 </DETPAY>
         <RATEINFO Code="826" Rate=""> </RATEINFO>
         <TAX></TAX>
         <VO>06</VO>
@@ -107,9 +107,9 @@
   <ACCOUNTINFO>
     <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
     <CURRENCY Iso="GBP" Code="826" Rate="2.7693"> </CURRENCY>
-    <NAME>€Ќ„€‚€„“Ђ‹њЌ›‰ Џђ…„Џђ€Ќ€ЊЂ’…‹њ ђ“„›‰ ЉЋЌ‘’ЂЌ’€Ќ ‚€Љ’ЋђЋ‚€—</NAME>
-    <TYPETURN>ЋЉЋЌ—Ђ’…‹њЌЂџ</TYPETURN>
-    <PERIOD>§  08.11.2018</PERIOD>
+    <NAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</NAME>
+    <TYPETURN>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</TYPETURN>
+    <PERIOD>пїЅпїЅ 08.11.2018</PERIOD>
     <INREST nominal="0.00" equivalent="0"> </INREST>
     <OUTREST nominal="0.00" equivalent="0.00"> </OUTREST>
     <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
@@ -126,9 +126,9 @@
   <ACCOUNTINFO>
     <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
     <CURRENCY Iso="GBP" Code="826" Rate="2.7309"> </CURRENCY>
-    <NAME>€Ќ„€‚€„“Ђ‹њЌ›‰ Џђ…„Џђ€Ќ€ЊЂ’…‹њ ђ“„›‰ ЉЋЌ‘’ЂЌ’€Ќ ‚€Љ’ЋђЋ‚€—</NAME>
-    <TYPETURN>ЋЉЋЌ—Ђ’…‹њЌЂџ</TYPETURN>
-    <PERIOD>§  29.12.2018</PERIOD>
+    <NAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</NAME>
+    <TYPETURN>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</TYPETURN>
+    <PERIOD>пїЅпїЅ 29.12.2018</PERIOD>
     <INREST nominal="0.00" equivalent="0"> </INREST>
     <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
     <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
@@ -143,10 +143,10 @@
         <DOCN>25720</DOCN>
         <MFOKORR>BPSBBY2X</MFOKORR>
         <ACCKORR>BY91BPSB69018000050108260000</ACCKORR>
-        <NAMEKORR>ЋЂЋ "ЃЏ‘-‘Ѓ…ђЃЂЌЉ"</NAMEKORR>
+        <NAMEKORR>пїЅпїЅпїЅ "пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"</NAMEKORR>
         <UNPKORR>100219673</UNPKORR>
         <SUMOPER nd="" nk="0.01" ed="" ek="0.03"> </SUMOPER>
-        <DETPAY>‚лЇ« в  Їа®жҐ­в®ў Ї® бзҐв ¬ Є«ЁҐ­в®ў §  ЇҐаЁ®¤ б 30/11/2018 Ї® 28/12/2018 Ї® ¤®Ј®ў®аг ®в 28.07.2017 ь 501/301612/’/826/02 Ї® бзҐвг BY30BPSB30133016120248260000. </DETPAY>
+        <DETPAY>пїЅлЇ«пїЅпїЅпїЅ пїЅпїЅпїЅжҐ­в®ў пїЅпїЅ пїЅпїЅпїЅв ¬ пїЅпїЅпїЅпїЅпїЅв®ў пїЅпїЅ пїЅпїЅаЁ®пїЅ пїЅ 30/11/2018 пїЅпїЅ 28/12/2018 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 28.07.2017 пїЅ 501/301612/пїЅ/826/02 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ BY30BPSB30133016120248260000. </DETPAY>
         <RATEINFO Code="826" Rate=""> </RATEINFO>
         <TAX></TAX>
         <VO>06</VO>
@@ -159,9 +159,9 @@
   <ACCOUNTINFO>
     <ACCOUNT>BY30BPSB30133016120248260000</ACCOUNT>
     <CURRENCY Iso="GBP" Code="826" Rate="2.7309"> </CURRENCY>
-    <NAME>€Ќ„€‚€„“Ђ‹њЌ›‰ Џђ…„Џђ€Ќ€ЊЂ’…‹њ ђ“„›‰ ЉЋЌ‘’ЂЌ’€Ќ ‚€Љ’ЋђЋ‚€—</NAME>
-    <TYPETURN>ЋЉЋЌ—Ђ’…‹њЌЂџ</TYPETURN>
-    <PERIOD>§  02.01.2019</PERIOD>
+    <NAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</NAME>
+    <TYPETURN>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</TYPETURN>
+    <PERIOD>пїЅпїЅ 02.01.2019</PERIOD>
     <INREST nominal="0.01" equivalent="0.03"> </INREST>
     <OUTREST nominal="0.01" equivalent="0.03"> </OUTREST>
     <TURNDEB nominal="0.00" equivalent="0.00"> </TURNDEB>
