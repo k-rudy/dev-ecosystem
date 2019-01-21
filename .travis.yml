@@ -1,0 +1,14 @@
+language: ruby
+
+services:
+  - docker
+
+env:
+  HANAMI_ENV=test
+
+before_install:
+  - docker-compose build app
+  - docker-compose run app hanami db prepare
+
+script:
+  - docker-compose run app rspec
