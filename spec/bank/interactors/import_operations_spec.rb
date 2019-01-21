@@ -1,4 +1,4 @@
-RSpec.describe Bank::Interactors::ImportTurns do
+RSpec.describe Bank::Interactors::ImportOperations do
   describe '#call' do
     let(:file_path) { 'spec/support/fixtures/turns.xml' }
 

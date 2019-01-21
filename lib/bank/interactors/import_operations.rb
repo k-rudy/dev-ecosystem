@@ -1,18 +1,18 @@
 module Bank
   module Interactors
-    class ImportOpeartions
+    class ImportOperations
       include Hanami::Interactor
 
-      attr_reader :file, :node_to_operation_interactor
+      attr_reader :file, :convert_node_interactor
 
-      def initialize(file:, convert_node_interactor:)
+      def initialize(file:, convert_node_interactor: ConvertNode)
         @file = file
         @convert_node_interactor = convert_node_interactor
       end
 
       def call
         operation_nodes.each do |node|
-          operation = convert_node_interactor.call(node)
+          convert_node_interactor.new(node: node).call
         end
       end
 
