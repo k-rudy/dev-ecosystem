@@ -12,7 +12,7 @@ before_install:
   - while sudo lsof -Pi :5432 -sTCP:LISTEN -t; do sleep 1; done
 
   - docker-compose build app
-  - docker-compose run app 'HANAMI_ENV=test hanami db prepare'
+  - docker-compose run -e HANAMI_ENV=test app hanami db prepare
 
 script:
   - docker-compose run app rspec
