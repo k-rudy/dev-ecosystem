@@ -1,3 +1,5 @@
+language: generic
+
 services:
   - docker
 
@@ -10,8 +12,7 @@ before_install:
   - while sudo lsof -Pi :5432 -sTCP:LISTEN -t; do sleep 1; done
 
   - docker-compose build app
-  - HANAMI_ENV=test docker-compose run app hanami db create
-  - HANAMI_ENV=test docker-compose run app hanami db prepare
+  - docker-compose run app 'HANAMI_ENV=test hanami db prepare'
 
 script:
   - docker-compose run app rspec
