@@ -9,7 +9,9 @@ module Bank
         @node = node
       end
 
-      def call; end
+      def call
+        # binding.pry
+      end
     end
   end
 end
