@@ -3,10 +3,6 @@ language: generic
 services:
   - docker
 
-env:
-  global:
-    - CC_TEST_REPORTER_ID=f5ee514b9b752e26a9d42846d7f5f8554841ed70e25038592e70b7d94b42da35
-
 before_install:
   # Let's stop postgresql
   - sudo service postgresql stop
@@ -16,14 +12,10 @@ before_install:
 before_script:
   - docker-compose build app
   - docker-compose run -e HANAMI_ENV=test app hanami db prepare
-
-  # test report preparation
-  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./cc-test-reporter
-  - ./cc-test-reporter before-build
+  - docker-compose run -e CC_TEST_REPORTER_ID=f5ee514b9b752e26a9d42846d7f5f8554841ed70e25038592e70b7d94b42da35 app ./script/cc-test-reporter before-build
 
 script:
   - docker-compose run app rspec
 
 after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+  - docker-compose run -e CC_TEST_REPORTER_ID=f5ee514b9b752e26a9d42846d7f5f8554841ed70e25038592e70b7d94b42da35 app ./script/cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
