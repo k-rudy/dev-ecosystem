@@ -3,23 +3,28 @@ module Bank
     class ImportOperations
       include Hanami::Interactor
 
-      attr_reader :file, :convert_node_interactor
-
-      def initialize(file:, convert_node_interactor: ConvertNode)
-        @file = file
-        @convert_node_interactor = convert_node_interactor
+      def initialize(file:, user_id:,
+                     nodes_interactor: Integrations::BpsSberbank::ExtractOperationNodes.new(file: file))
+        @user_id = user_id
+        @nodes_interactor = nodes_interactor
+        @operations = []
       end
 
       def call
         operation_nodes.each do |node|
-          convert_node_interactor.new(node: node).call
+          result = create_operation_interactor(node: node).call
+          @operations << result.operation if result.successful?
         end
       end
 
       private
 
       def operation_nodes
-        @operations || Nokogiri::HTML(file).css('turn').reject { |turn| turn.css('operinfo oper').empty? }
+        @nodes_interactor.call.nodes
+      end
+
+      def create_operation_interactor(node:)
+        Integrations::BpsSberbank::CreateOperationFromNode.new(node: node, user_id: @user_id)
       end
     end
   end
