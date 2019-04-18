@@ -4,3 +4,16 @@ engines:
 
 exclude_patterns:
   - "spec/"
+  - "db/"
+  - ".*"
+  - "Dockerfile"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "README.md"
+  - "Rakefile"
+  - "*.ico"
+  - "config.ru"
+  - "*.yml"
+  - "*.sql"
+  - "script/"
