@@ -1,3 +1,6 @@
 engines:
   brakeman:
     enabled: false
+
+exclude_patterns:
+  - "spec/"
