@@ -13,6 +13,7 @@ exclude_patterns:
   - "README.md"
   - "Rakefile"
   - "**/*.ico"
+  - "**/*.erb"
   - "config.ru"
   - "*.yml"
   - "*.sql"
