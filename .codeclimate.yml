@@ -18,3 +18,4 @@ exclude_patterns:
   - "*.yml"
   - "*.sql"
   - "script/"
+  - "public/"
