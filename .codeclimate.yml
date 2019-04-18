@@ -12,7 +12,7 @@ exclude_patterns:
   - "LICENSE"
   - "README.md"
   - "Rakefile"
-  - "*.ico"
+  - "**/*.ico"
   - "config.ru"
   - "*.yml"
   - "*.sql"
