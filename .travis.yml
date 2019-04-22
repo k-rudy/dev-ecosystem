@@ -1,5 +1,10 @@
 language: generic
 
+env:
+  global:
+    - CC_TEST_REPORTER_ID=f5ee514b9b752e26a9d42846d7f5f8554841ed70e25038592e70b7d94b42da35
+    - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
+
 services:
   - docker
 
@@ -12,7 +17,7 @@ before_install:
 before_script:
   - docker-compose build app
   - docker-compose run -e HANAMI_ENV=test app hanami db prepare
-  - docker-compose run -e CC_TEST_REPORTER_ID=f5ee514b9b752e26a9d42846d7f5f8554841ed70e25038592e70b7d94b42da35 app ./script/cc-test-reporter before-build
+  - docker-compose run -e CC_TEST_REPORTER_ID=$CC_TEST_REPORTER_ID -e GIT_COMMITTED_AT=$GIT_COMMITTED_AT app ./script/cc-test-reporter before-build
 
 script:
   - docker-compose run app rspec
