@@ -14,6 +14,10 @@ module BankUI
       #
       root __dir__
 
+      # Loading load_translations
+      I18n.load_path << Dir[root.join("config/locales/**/*.yml")]
+      I18n.backend.load_translations
+
       # Relative load paths where this application will recursively load the
       # code.
       #

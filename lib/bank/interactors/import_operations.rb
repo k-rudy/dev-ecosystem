@@ -12,14 +12,16 @@ module Bank
 
       def call
         operation_nodes.each do |node|
-          extract_operation_data_interactor(node: node).call
+          result = extract_operation_data_interactor(node: node).call
         end
       end
 
       private
 
       def operation_nodes
-        @nodes_interactor.call.nodes
+        result = @nodes_interactor.call
+        error(result.errors) if result.failure?
+        result.nodes
       end
 
       def extract_operation_data_interactor(node:)

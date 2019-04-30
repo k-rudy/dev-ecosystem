@@ -14,7 +14,18 @@ module Bank
           end
 
           def call
-            @nodes = Nokogiri::HTML(file).css('turn').reject { |turn| turn.css('operinfo oper').empty? }
+            @nodes = turns.reject { |turn| turn.css('operinfo oper').empty? }
+          end
+
+          private
+
+          def valid?
+            error(I18n.t('errors.bps.invalid_file')) if turns.empty?
+            !@errors || @orrors.empty?
+          end
+
+          def turns
+            @turns ||= Nokogiri::HTML(file).css('turn')
           end
         end
       end
