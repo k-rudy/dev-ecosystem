@@ -43,7 +43,8 @@ module Bank
               value: operation_value,
               value_equivalent: equivalent_value,
               type: type,
-              details: details
+              details: details,
+              name: name
             }
           end
           # rubocop:enable AbcSize, MethodLength
@@ -79,6 +80,10 @@ module Bank
 
           def type
             debit? ? 'debit' : 'credit'
+          end
+
+          def name
+            type
           end
         end
       end

@@ -1,4 +1,4 @@
-RSpec.describe Bank::Interactors::ImportOperations do
+RSpec.describe Bank::Interactors::Operations::Import do
   describe '#call' do
     let(:file_path) { 'spec/support/fixtures/bpsb.xml' }
 
@@ -8,12 +8,16 @@ RSpec.describe Bank::Interactors::ImportOperations do
       let(:file_path) { 'spec/support/fixtures/png.png' }
 
       it 'returns validation errors' do
-        expect(subject.errors).to eq(["Файл не является файлом выписки БПС-Сбербанка."])
+        expect(subject.errors).to eq(['Файл не является файлом выписки БПС-Сбербанка.'])
       end
     end
 
+    it 'succeeds' do
+      expect(subject).to be_successful
+    end
+
     it 'extracts the list of operations' do
-      subject
+      expect { subject }.to change { OperationRepository.new.operations.count }.by(6)
     end
   end
 end
