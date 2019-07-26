@@ -5,7 +5,10 @@ gem 'hanami-model', '~> 1.3'
 gem 'i18n'
 gem 'rake'
 
+# Db
 gem 'pg'
+# Authentication
+gem 'omniauth-google-oauth2'
 
 group :development do
   # Code reloading
