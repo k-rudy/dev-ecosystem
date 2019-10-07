@@ -5,8 +5,10 @@ MAINTAINER Konstantin Rudy <konstantin.rudy@gmail.com>
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
+
+
 RUN apt-get update -y && \
-    apt-get install -y cmake libssl-dev postgresql-client-9.6
+    apt-get install -y cmake libssl-dev postgresql-client
 
 ENV APP_HOME /usr/src/app
 RUN mkdir -p $APP_HOME
