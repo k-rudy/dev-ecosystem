@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Bank
   module Interactors
     module Operations
@@ -15,9 +17,11 @@ module Bank
 
         def call
           operation_nodes.each do |node|
-            data = extract_operation_data(node: node)
-            # log_data(data)
-            create_operation(data: data) if @errors.nil?
+            data_list = extract_operation_data(node: node)
+            data_list.each do |data|
+              # log_data(data)
+              create_operation(data: data) if @errors.nil?
+            end
           end
         end
 
