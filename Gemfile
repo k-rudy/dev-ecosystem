@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 gem 'hanami', '~> 1.3'
@@ -9,6 +11,7 @@ gem 'rake'
 gem 'pg'
 # Authentication
 gem 'omniauth-google-oauth2'
+gem 'warden'
 
 group :development do
   # Code reloading

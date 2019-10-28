@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'hanami/helpers'
 require 'hanami/assets'
 
@@ -15,7 +17,7 @@ module BankUI
       root __dir__
 
       # Loading load_translations
-      I18n.load_path << Dir[root.join("config/locales/**/*.yml")]
+      I18n.load_path << Dir[root.join('config/locales/**/*.yml')]
       I18n.backend.load_translations
 
       # Relative load paths where this application will recursively load the
@@ -86,7 +88,7 @@ module BankUI
       #
       # See: http://www.rubydoc.info/gems/rack/Rack/Session/Cookie
       #
-      # sessions :cookie, secret: ENV['WEB_SESSIONS_SECRET']
+      sessions :cookie, secret: ENV['WEB_SESSIONS_SECRET']
 
       # Configure Rack middleware for this application
       #
@@ -266,6 +268,7 @@ module BankUI
       controller.prepare do
         # include MyAuthentication # included in all the actions
         # before :authenticate!    # run an authentication before callback
+        include BankUI::Controllers::Authentication
       end
 
       # Configure the code that will yield each time Web::View is included
@@ -275,6 +278,14 @@ module BankUI
       view.prepare do
         include Hanami::Helpers
         include BankUI::Assets::Helpers
+      end
+
+      middleware.use Warden::Manager do |manager|
+        manager.failure_app = BankUI::Controllers::Session::Failure.new
+      end
+
+      middleware.use OmniAuth::Builder do
+        provider :google_oauth2, ENV['GOOGLE_CLIENT_ID'], ENV['GOOGLE_CLIENT_SECRET']
       end
     end
 
