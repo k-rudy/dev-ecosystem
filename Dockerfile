@@ -15,7 +15,7 @@ RUN echo "deb http://ftp.uk.debian.org/debian stretch main" > /etc/apt/sources.l
 RUN echo "deb http://ftp.uk.debian.org/debian stretch-updates main" >> /etc/apt/sources.list
 
 RUN apt-get update -y && \
-    apt-get install -y cmake libcurl3 libtinfo5 libssl-dev postgresql-client
+    apt-get install -y --allow-remove-essential cmake libcurl3 libtinfo5 libssl-dev postgresql-client
 
 ENV APP_HOME /usr/src/app
 RUN mkdir -p $APP_HOME
