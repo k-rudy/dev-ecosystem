@@ -25,7 +25,7 @@ module Bank
           end
 
           def turns
-            @turns ||= Nokogiri::HTML(file).css('turn')
+            @turns ||= Nokogiri::HTML(file).css('turn accountinfo')
           end
         end
       end

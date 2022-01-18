@@ -19,8 +19,8 @@ module Bank
           operation_nodes.each do |node|
             data_list = extract_operation_data(node: node)
             data_list.each do |data|
-              # log_data(data)
-              create_operation(data: data) if @errors.nil?
+              log_data(data)
+              #create_operation(data: data) if @errors.nil?
             end
           end
         end
@@ -58,7 +58,7 @@ module Bank
 
         # rubocop:disable AbcSize
         def log_data(data)
-          return if data[:operation][:type] == 'debit'
+          #return if data[:operation][:type] == 'debit'
 
           puts([data[:operation][:date],
                 data[:operation][:document_number],

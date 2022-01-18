@@ -4,7 +4,7 @@ module Bank
   module Interactors
     module Integrations
       module BpsSberbank
-        class ExtractOperationDataFromNode
+        class ExtractOperationDataFromNodeOld
           include Hanami::Interactor
 
           expose :data
@@ -31,23 +31,23 @@ module Bank
 
           def account_data
             {
-              number: @node.css('account').text,
-              currency_iso: @node.css('currency').attribute('iso').value,
-              currency_code: @node.css('currency').attribute('code').value,
-              name: @node.css('name').text
+              number: @node.css('accountinfo account').text,
+              currency_iso: @node.css('accountinfo currency').attribute('iso').value,
+              currency_code: @node.css('accountinfo currency').attribute('code').value,
+              name: @node.css('accountinfo name').text
             }
           end
 
           # rubocop:disable AbcSize, MethodLength
           def operation_data(operation)
             {
-              date: @node.css('timeturn').attribute('date').value,
-              time: @node.css('timeturn').attribute('time').value,
+              date: @node.css('accountinfo timeturn').attribute('date').value,
+              time: @node.css('accountinfo timeturn').attribute('time').value,
               counteragent: counteragent_data(operation),
               document_number: operation.css('docn').text,
-              currency_iso: @node.css('currency').attribute('iso').value,
-              currency_code: @node.css('currency').attribute('code').value,
-              currency_rate: @node.css('currency').attribute('rate').value.to_f,
+              currency_iso: @node.css('accountinfo currency').attribute('iso').value,
+              currency_code: @node.css('accountinfo currency').attribute('code').value,
+              currency_rate: @node.css('accountinfo currency').attribute('rate').value.to_f,
               value: operation_value(operation),
               value_equivalent: equivalent_value(operation),
               type: type(operation),
